@@ -1,0 +1,156 @@
+.register-title {
+  text-align: center;
+  font-size: 40px;
+}
+.reg-image {
+  margin: auto;
+  display: block;
+  padding: 2%;
+  /* max-width: 100%; */
+  height: auto;
+  width: 800px;
+}
+.sub-content {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+.register-content {
+  font-size: 1.2rem;
+}
+
+.note {
+  font-size: 16px;
+  color: orangered;
+}
+.note1 {
+  font-size: 20px;
+}
+.crc-btn {
+  padding: 1% 5%;
+}
+
+.copyright-form {
+  color: #fec20e;
+}
+.copyright {
+  margin-top: 5.5rem;
+  text-align: left;
+}
+.copyright-btn {
+  text-align: center;
+}
+#Registration {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.crc {
+  margin-top: 2rem;
+  text-align: left;
+}
+.crc-button {
+  text-align: center;
+}
+.button {
+  border: 2px solid #fec20e; /* Gold color for a bold look */
+  border-radius: 15px; /* Rounded corners */
+  max-width: 150px; /* Set a consistent max width */
+  display: block;
+  margin: auto;
+  padding: 10px 20px; /* Spacious padding */
+  font-weight: bold;
+  font-size: 1rem; /* Font size */
+  background: linear-gradient(to right, #ffffff 0%, #fec20e 100%); /* Smooth gradient */
+  background-size: 200% 100%; /* For hover animation */
+  background-position: right bottom;
+  color: #333; /* Text color */
+  text-align: center;
+  transition: all 0.2s ease-in-out; /* Smooth transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  cursor: pointer;
+}
+
+.button:hover {
+  background-position: left bottom; /* Change gradient direction */
+  color: #ffffff; /* White text on hover */
+  background: linear-gradient(to right, #fec20e 0%, #333 100%); /* Gradient changes */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Slightly larger shadow */
+}
+
+/* Styling for anchor links inside the button */
+.button a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color */
+}
+
+.button:hover a {
+  color: #ffffff; /* White text on hover */
+}
+
+
+.text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
+  transition: all 0.6s ease-out;
+  display: block;
+}
+.acc-details {
+  padding: 2% 0%;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+}
+.acc-fields {
+  margin-bottom: 1rem;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  width: 150px; /* Adjust the width as needed */
+  margin-right: 10px;
+}
+
+.input-group input,
+.input-group textarea {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: none;
+}
+  
+
+.table-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+th {
+  background-color: #343a40;
+  color: #fff;
+}
+td, th {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.table-container {
+  margin: 20px auto;
+}
+@media (max-width: 768px) {
+  td, th {
+      font-size: 0.75rem;
+  }
+}
+
